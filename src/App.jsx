@@ -12,7 +12,7 @@ const PARTICIPANTS = [
   { id: 5, name: "Luisa Bolla", role: "Edad: 23", img: "./Luisa_Bolla-removebg-preview.png" },
   { id: 6, name: "Mariana Valle", role: "Edad: 34", img: "./Mariana_Valle-removebg-preview.png" },
   { id: 7, name: "Micaela Romero", role: "Edad: 30", img: "./Micaela_Romero-removebg-preview.png" },
-  { id: 8, name: "Yesenia Bejarano", role: "Edad: 39", img: "./Yesenia_Bejarano-removebg-preview.png" },
+  { id: 8, name: "Yesenia Bejarano", role: "Edad: 39", img: "./Yesenia_Bajerano-removebg-preview.png" },
 ];
 
 // ── Hooks ────────────────────────────────────────────────────────────────
