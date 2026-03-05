@@ -6,12 +6,12 @@ const FONT_SIZE = 16;
 
 const PARTICIPANTS = [
   { id: 1, name: "Agustina Veliz", role: "Edad: 23", img: "./Agustina_Veliz-removebg-preview.png" },
-  { id: 2, name: "Aura Galíndez", role: "Edad: 35", img: "./Aura_Galindez-removebg-preview.png" },
   { id: 3, name: "Celeste Cabrera", role: "Edad: 22", img: "./Celeste_Cabrera-removebg-preview.png" },
   { id: 4, name: "Kiara Luna", role: "Edad: 18", img: "./Kiara_Luna-removebg-preview.png" },
   { id: 5, name: "Luisa Bolla", role: "Edad: 23", img: "./Luisa_Bolla-removebg-preview.png" },
   { id: 6, name: "Mariana Valle", role: "Edad: 34", img: "./Mariana_Valle-removebg-preview.png" },
   { id: 7, name: "Micaela Romero", role: "Edad: 30", img: "./Micaela_Romero-removebg-preview.png" },
+  { id: 2, name: "Aura Galíndez", role: "Edad: 35", img: "./Aura_Galindez-removebg-preview.png" },
   { id: 8, name: "Yesenia Bejarano", role: "Edad: 39", img: "./Yesenia_Bajerano-removebg-preview.png" },
 ];
 
