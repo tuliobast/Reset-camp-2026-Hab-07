@@ -35,6 +35,27 @@ function useScrollReveal(ref) {
   return progress;
 }
 
+function useAudio(src) {
+  const audioRef = useRef(new Audio(src));
+
+  useEffect(() => {
+    const audio = audioRef.current;
+    audio.loop = true;
+    audio.volume = 0.4;
+
+    const playOnInteraction = () => {
+      audio.play();
+      window.removeEventListener("click", playOnInteraction);
+    };
+
+    window.addEventListener("click", playOnInteraction);
+    return () => {
+      audio.pause();
+      window.removeEventListener("click", playOnInteraction);
+    };
+  }, []);
+}
+
 // ── MatrixBackground ─────────────────────────────────────────────────────
 function MatrixBackground() {
   const canvasRef = useRef(null);
@@ -276,6 +297,7 @@ function HeroTitle() {
 
 // ── App ────────────────────────────────────────────────────────────────────
 export default function App() {
+  useAudio("./MUSIC.mp3");
   return (
     <div style={{ background: "#000", minHeight: "100vh", position: "relative" }}>
       <MatrixBackground />
